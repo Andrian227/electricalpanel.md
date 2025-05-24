@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactaţi-ne - Electrotablou Moldova</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/favicon.png" type="image/png">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo.png" alt="Logo Electrotablou Moldova">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Acasă</a></li>
+                    <li><a href="services.html">Servicii</a></li>
+                    <li><a href="portfolio.html">Portofoliu</a></li>
+                    <li><a href="about.html">Despre Noi</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="menu-toggle" aria-label="Toggle navigation">&#9776;</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-hero contact-hero">
+            <div class="container">
+                <h1>Contactați-ne</h1>
+                <p>Suntem aici să vă răspundem la întrebări și să vă ajutăm cu proiectul dvs. electric.</p>
+            </div>
+        </section>
+
+        <section class="contact-details">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h2>Informații de Contact</h2>
+                        <p>Ne puteți contacta prin telefon, email sau vizitați-ne la birou.</p>
+                        <div class="info-item">
+                            <img src="images/icon-phone.png" alt="Telefon">
+                            <p><strong>Telefon:</strong> <a href="tel:+373XXXXXXXXX">+373 XX XXX XXX</a></p>
+                        </div>
+                        <div class="info-item">
+                            <img src="images/icon-email.png" alt="Email">
+                            <p><strong>Email:</strong> <a href="mailto:info@electrotablou.md">info@electrotablou.md</a></p>
+                        </div>
+                        <div class="info-item">
+                            <img src="images/icon-address.png" alt="Adresă">
+                            <p><strong>Adresa:</strong> Strada Exemplu, Nr. 10, Chișinău, Moldova</p>
+                        </div>
+                        <div class="info-item">
+                            <img src="images/icon-hours.png" alt="Program">
+                            <p><strong>Program de lucru:</strong> Luni - Vineri: 9:00 - 18:00</p>
+                        </div>
+                        <h3>Urmăriți-ne pe rețelele sociale:</h3>
+                        <div class="social-links">
+                            <a href="#" aria-label="Facebook"><img src="images/icon-facebook.png" alt="Facebook"></a>
+                            <a href="#" aria-label="LinkedIn"><img src="images/icon-linkedin.png" alt="LinkedIn"></a>
+                            </div>
+                    </div>
+                    <div class="contact-form">
+                        <h2>Trimiteți-ne un Mesaj</h2>
+                        <form action="submit_form.php" method="POST">
+                            <div class="form-group">
+                                <label for="name">Numele Dvs.*</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Adresa de Email*</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Număr de Telefon</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+                            <div class="form-group">
+                                <label for="service">Serviciul de Interes</label>
+                                <select id="service" name="service">
+                                    <option value="">Selectați un serviciu</option>
+                                    <option value="assembly">Asamblare Electrotablou</option>
+                                    <option value="installation">Instalare Electrotablou</option>
+                                    <option value="design">Proiectare Scheme</option>
+                                    <option value="modernization">Modernizare Tablou</option>
+                                    <option value="other">Altele</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Mesajul Dvs.*</label>
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn primary">Trimite Mesajul</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="map-container">
+                    <h2>Localizarea Noastră</h2>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2720.088682806282!2d28.83582491572979!3d47.01045987915227!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c97c1d3c0d6f21%3A0x6a0f0e0f0e0f0e0f!2sChisinau!5e0!3m2!1sen!2smd!4v1678901234567!5m2!1sen!2smd" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>Contact</h3>
+                    <p>📞 +373 XX XXX XXX</p>
+                    <p>📧 info@electrotablou.md</p>
+                    <p>📍 Adresa Dvs., Chișinău, Moldova</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Navigare</h3>
+                    <ul>
+                        <li><a href="index.html">Acasă</a></li>
+                        <li><a href="services.html">Servicii</a></li>
+                        <li><a href="portfolio.html">Portofoliu</a></li>
+                        <li><a href="about.html">Despre Noi</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Servicii Populare</h3>
+                    <ul>
+                        <li><a href="services.html#assembly">Asamblare Tablouri</a></li>
+                        <li><a href="services.html#installation">Instalare Tablouri</a></li>
+                        <li><a href="services.html#design">Proiectare Scheme</a></li>
+                        <li><a href="services.html#modernization">Modernizare Tablouri</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Urmăriți-ne</h3>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><img src="images/icon-facebook.png" alt="Facebook"></a>
+                        <a href="#" aria-label="LinkedIn"><img src="images/icon-linkedin.png" alt="LinkedIn"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Electrotablou Moldova. Toate drepturile rezervate.</p>
+                <p><a href="#">Politica de Confidențialitate</a> | <a href="#">Termeni și Condiții</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
